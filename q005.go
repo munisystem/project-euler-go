@@ -5,7 +5,7 @@ import "fmt"
 
 func main() {
 	mult := 1
-	end := 10
+	end := 20
 	for i := 2; i <= end; i++ {
 		if is_prime(i) == true {
 			mult = mult * largest_factorial(i, end)
